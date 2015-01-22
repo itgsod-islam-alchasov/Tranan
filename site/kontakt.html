@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        #map-canvas {
+            width: 500px;
+            height: 400px;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(59.333458, 18.064247),
+                zoom: 16,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+            var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+            var marker = new google.maps.Marker({
+                position: (59.333458, 18.064247),
+                map: map,
+                icon: iconBase + 'parking_lot_maps.png',
+            });
+
+            }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <title>Tranan</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/kontakta.css"/>
+    <link rel="shortcut icon" href="img/icon.ico" type="image/png">
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+<div class="body" id="center">
+
+    <div class="header">
+        <img src="img/banner.jpg"/>
+    </div>
+
+    <div class="menu">
+        <a id="mfirst" class="menubar" href="Index.html">
+            <h1 class="menutext">Hem</h1>
+        </a>
+
+        <div class="spacer"></div>
+
+        <a class="menubar" href="Varmrätter.html">
+            <h1 class="menutext">Alla rätter</h1>
+        </a>
+
+        <div class="spacer"></div>
+
+        <a class="menubar" href="Reservera.html">
+            <h1 class="menutext">Reservera</h1>
+        </a>
+
+        <div class="spacer"></div>
+
+        <a  id="mlast" class="menubar" href="Kontakt.html">
+            <h1 class="menutext">Kontakta Oss</h1>
+        </a>
+    </div>
+    <div class="container">
+
+       <div id="kontakta">
+            <h1 id="kontakta2">Kontakta oss</h1>
+       </div>
+
+        <div class="Info">
+
+            <div id="tider" class="Info_Box">
+                <h2 id="Info_h2" class="Info_small">Öppettider:</h2>
+                <h3 class="Info_small"> Mån-Fre: <a class="red_color">16:00 - 00:00</a></h3>
+                <h3 class="Info_small"> Lör-Sön: <a class="red_color">18:00 - 01:00</a></h3>
+            </div>
+
+            <div id="nummer" class="Info_Box">
+                 <h2 id="Info_h2" class="Info_small">Telefonnummer:</h2>
+                 <h3 class="Info_small"> <a class="red_color">08-583-525-95</a></h3>
+            </div>
+
+        </div>
+        <div id="bindestreck"> </div>
+        <div id="hitta">
+            <div id="adress">
+                    <div id="hittahit">
+                       <h1>Hitta Hit</h1>
+                       <h1>Tiggarvägen 57, Stockholm 13337</h1>
+                    </div>
+            <div id="map-canvas"></div>
+
+                </div>
+        </div>
+
+    </div>
+
+</div>
+</div>
+
+</body>
+
+</html>
