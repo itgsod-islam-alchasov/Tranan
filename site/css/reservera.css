@@ -1,0 +1,272 @@
+.container {
+    height: 450px;
+}
+
+
+#reservera {
+
+    margin-top: 25px;
+    height: 100px;
+    width: 100%;
+   /*background-color: red;*/
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#reservera2{
+
+
+    height: 50px;
+    width: 350px;
+    margin-left: 275px;
+    margin-top: 25px;
+    font-size: 50px;
+    float: left;
+    font-family: list;
+}
+
+#uppgifter {
+
+
+    /*background-color: purple;*/
+    width: 100%;
+    height: 100%;
+float: left;
+    margin-top: 0px;
+margin-right: auto;
+    margin-left: auto;
+
+
+}
+#input {
+    height: 16px;
+    width: 90px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-family: list;
+    font-size: 17px;
+
+}
+
+#input1ruta {
+    height: 16px;
+    width: 125px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+    border-radius: 10px;
+
+}
+#input2{
+    font-family: list;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    width: 120px;
+    height: 16px;
+    float: left;
+    font-size: 17px;
+}
+#input2ruta{
+
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    width: 100px;
+    height: 16px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+#inputdiv1{
+    /*background-color: green;*/
+    height: 400px;
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#input3 {
+
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: list;
+    width: 130px;
+    height: 20px;
+    float: left;
+    margin-bottom: 0px;
+    font-size: 17px;
+
+}
+
+#input4 {
+    font-family: list;
+    margin-top: 20px;
+    margin-left: 98px;
+    height: 1px;
+    float: left;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+#input3ruta{
+    width: 85px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+
+
+
+}
+
+/*#input4ruta{
+    margin-right: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 105px;
+    border-radius: 10px;
+    width: 100px;
+
+
+}*/
+
+#selecttimme{
+
+    margin-right: 1px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 52px;
+    border-radius: 10px;
+    width: 50px;
+
+}
+#selectminut{
+
+    margin-right: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 10px;
+    width: 50px;
+
+}
+
+#kontouppgifter{
+
+    float: left;
+    margin-top: 40px;
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: list;
+    margin-bottom: 0px;
+    margin-right: 500px;
+}
+#kortnummer{
+    width: 85px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: list;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    height: 2px;
+    font-size: 17px;
+
+
+
+
+}
+#kortnummerruta{
+    border-radius: 15px;
+    float: left;
+    margin-top: 22px;
+    width: 90px;
+    margin-right: 70px;
+
+}
+#giltig{
+    width: 115px;
+    height: 2px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: list;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+#giltigruta{
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 20px;
+    width: 100px;
+    float: left;
+    margin-top: 22px;
+
+}
+#cvv{
+    width: 25px;
+    float: left;
+    margin-left: 85px;
+    margin-top: 20px;
+    font-family: list;
+    margin-right: 20px;
+    font-size: 17px;
+
+}
+#cvvruta{
+    border-radius: 15px;
+    margin-right: 25px;
+    margin-left: 30px;
+    width: 90px;
+    float: left;
+    margin-top: 22px;
+
+}
+
+#bindestreck {
+    height: 3px;
+    width: 790px;
+    background-color: black;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#knapp {
+    margin-top: 50px;
+    float: right;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+
+
+}
+#knapp:hover{
+
+    background-color: lightgreen;
+
+}
+
+#bindestreck2 {
+    margin-top: 10px;
+    height: 2px;
+    width: 725px;
+    background-color: black;
+    float: right;
+    margin-left: auto;
+    maring-right: auto;
+
+}
