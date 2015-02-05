@@ -12,7 +12,7 @@
 
 body {
     margin: 0px;
-    background-color: rgba(121, 121, 121, 0.73);
+    background-color: rgb(71, 71, 71);
 
 }
 
@@ -100,7 +100,7 @@ a {
 .menubar:hover {
     height: 100%;
     float: left;
-    background-color: #ff0011;
+    background-color: #ff4a00;
 
     -webkit-transition: background-color 0.4s linear;
     -moz-transition: background-color 0.4s linear;
@@ -113,7 +113,7 @@ a {
     height: 100%;
     float: left;
     border-bottom-left-radius: 10px;
-    background-color: #ff0011;
+    background-color: #ff4a00;
 
     -webkit-transition: background-color 0.4s linear;
     -moz-transition: background-color 0.4s linear;
@@ -126,7 +126,7 @@ a {
     height: 100%;
     float: left;
     border-bottom-right-radius: 10px;
-    background-color: #ff0011;
+    background-color: #ff4a00;
 
     -webkit-transition: background-color 0.4s linear;
     -moz-transition: background-color 0.4s linear;
